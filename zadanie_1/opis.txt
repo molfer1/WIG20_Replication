@@ -1,0 +1,38 @@
+Zadanie realizowane za pośrednictwem python 3.9.
+
+1. Statystyka opisowa (ilość danych, średnia, odchylenie standardowe, minimum, 1 kwartyl, 2 kwartyl, 3, kwartyl, maksimum)
+   - wyrzucane w "print" do terminal'a
+
+2. Ilość sklepów w konkretnych lokalizacjach
+
+Hipoteza:
+    3. Korelacja między dzienną liczbą klientów, a ilością sprzedaży.
+    4. Korelacja między wielkością sklepu, a ilością dostępnych produktów.
+
+3. Brak korelacji między dzienną liczbą klientów, a ilością sprzedaży.
+
+   Wniosek: brak korelacji - (spodziewałem się z czystej spekulacji odwrotnego wyniku)
+   Funkcja: size_to_items_available_chart()
+
+4. Korelacja między wielkością sklepu, a ilością dostępnych produktów.
+
+   Wniosek: bardzo silna korelacja
+   Funkcja: num_of_clients_to_store_sales_chart()
+
+Hipoteza:
+    5. Czy większe sklepy sprzedają więcej?
+
+5. Brak korelacji między wielkością sklepu, a ilością sprzedaży.
+
+    Wniosek: brak korelacji
+    Funkcja: store_sales_to_store_area_chart()
+
+6. Model liniowy przewidywanego wzrostu dostępnych produktów wraz z wielkością sklepu
+    Wniosek: pokrywa się - wysoki stopień dopasowania
+    Funkcja: linear_model_1()
+
+7. Model liniowy_2 dziennej ilości klientów do ilości dostępnych produktów
+    Wniosek: Brak pokrycia - bardzo niski stopień dopasowania
+    Funkcja: linear_model_2()
+
+Model linear_model_1() jest lepszy, spełnia postawione założenia, bardzo wysoki stopień pokrycia.

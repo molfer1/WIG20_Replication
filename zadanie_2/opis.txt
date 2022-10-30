@@ -1,0 +1,6 @@
+Zadanie realizowane za pośrednictwem Python 3.9.
+
+Program wylicza wszystkie wartości dla zadanego wektora liczb rzeczywistych (tabela "data = []")
+Wynik zwracany jest w formie pliku excel'a "wynik.xlsx".
+
+Wynik.xlsx został wygenerowany na podstawie przykładowego wektora danych, który znajduję się w pliku "main.py".
